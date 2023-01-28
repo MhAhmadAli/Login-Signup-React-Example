@@ -5,7 +5,6 @@ import insta_icon from "../../images/instagram-logo.png";
 import twitter_icon from "../../images/twitter-logo.png";
 import facebook_icon from "../../images/facebook-logo.png";
 
-
 function LeftContainer() {
   return (
     <div className="split left-container">
@@ -20,10 +19,20 @@ function LeftContainer() {
         <div className="sperator-text">Ou se registre com</div>
         <div className="seperator"></div>
       </div>
-      <div className="social-login-icons">
-        <div className="social-icon-container"></div>
-        <div className="social-icon-container"></div>
-        <div className="social-icon-container"></div>
+      <div className="social-icon-container">
+        <div className="social-login-icons">
+          <img src={insta_icon} alt="insta_icon" />
+        </div>
+        <div className="social-login-icons">
+          <img src={twitter_icon} alt="twitter_icon" />
+        </div>
+        <div className="social-login-icons">
+          <img src={facebook_icon} alt="facebook_icon" />
+        </div>
+      </div>
+      <div className="left-bottom-text">
+        <span>Já é membro? </span>
+        <span className="diff-text">Faça Login</span>
       </div>
     </div>
   );

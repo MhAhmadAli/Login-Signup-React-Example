@@ -136,7 +136,8 @@ code {
   border-radius: 53px;
 }
 
-.slider-three div:hover, .slider-three .active {
+.slider-three div:hover,
+.slider-three .active {
   background: #C4C4C4;
 }
 
@@ -154,10 +155,37 @@ code {
   margin: 0px 23px;
 }
 
-.social-icons {
-  width: 64px;
-  height: 64px;
-  filter:  invert(100%);
+.social-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social-login-icons{
+  width: 51px;
+  height: 51px;
+  background: rgba(255, 255, 255, 0.47);
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  margin: 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-bottom-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.diff-text {
+  color: #E487FB;
 }
 
 input {
